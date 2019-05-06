@@ -27,7 +27,7 @@ class App extends Component {
 
   rot13(event) {
 
-    const url = "http://rot13-rot13-backend.7e14.starter-us-west-2.openshiftapps.com/api/greeting?name=";
+    const url = "http://rot13-rot13.7e14.starter-us-west-2.openshiftapps.com//api/rot13?input=";
     const input = event.target.value;
     
     axios.get(url + input).then(response => this.setState({

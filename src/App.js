@@ -10,7 +10,6 @@ class App extends Component {
     super();
 
     this.state = {
-      cleartext: '',
       rot13: ''
     }
 
@@ -30,9 +29,6 @@ class App extends Component {
 
     const url = "http://rot13-rot13-backend.7e14.starter-us-west-2.openshiftapps.com/api/greeting?name=";
     const input = event.target.value;
-    this.setState({
-      cleartext: input
-    });
     
     axios.get(url + input).then(response => this.setState({
       rot13: response.data.content

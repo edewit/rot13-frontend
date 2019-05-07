@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@types/bootstrap": "^4.3.0",
+    "@patternfly/react-core": "^3.16.10",
     "axios": "^0.18.0",
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
     "popper.js": "^1.15.0",
     "react": "^16.6.3",
+    "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.6.3",
     "react-scripts": "2.1.1"
   },
